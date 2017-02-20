@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Code Repository @ Github"
-description: "한글로 된 글의 샘플입니다."
+description: "책에 사용된 코드들과 자료입니다."
 date: 2017-01-19
 tags: [notice, github]
 comments: true
