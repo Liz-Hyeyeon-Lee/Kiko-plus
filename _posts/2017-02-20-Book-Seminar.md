@@ -12,3 +12,4 @@ share: true
 
 [행사내용](http://onoffmix.com/event/88507)
 
+[MS Azure Machine Learning & Python](http://www.itworld.co.kr/news/98291)
