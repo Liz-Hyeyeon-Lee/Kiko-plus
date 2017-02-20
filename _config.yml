@@ -3,7 +3,7 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "Python Machine Learning Korean ver."
 
 author:
   facebook:         your-id
@@ -16,7 +16,7 @@ author:
 
 copyright:
   year:             2017
-  name:             Kiko
+  name:             Liz Lee
 
 # Google-analytics
 google-analytics:
@@ -27,7 +27,7 @@ disqus:
   id:               "kiko-plus"
 
 # URL
-url:                "https://AWEEKJ.github.io" # the base hostname & protocol for your site
+url:                "https://liz-hyeyeon-lee.github.io" # the base hostname & protocol for your site
 # url:                "http://localhost:4000" # use this url when you develop
 baseurl:            # the subpath of your site, e.g. /blog
 
