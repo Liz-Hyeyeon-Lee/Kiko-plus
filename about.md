@@ -3,129 +3,28 @@ title: About
 permalink: /about/
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+파이썬 머신러닝 책의 한국어판에 관한 자료공유와 관련공지사항을 위한 그룹입니다.
+
+한국어판의 역자가 운영하는 것으로, 질의에 관한 답변은 가용시간을 이용하여 답변드릴 수 있음에 양해 부탁드립니다.
 
 ## Features
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+- Notice 
+- Glossary
+- Erata
+- Seminar
+- Review
 
 
-## Installation
 
-#### Method 1: new master's repository (The Best)
+## Book Info
+머신러닝과 예측 분석은 비지니스 및 여러 기관의 운영 방식을 변화시키고 있다. 이 책 **파이썬 머신러닝**은 독자들이 예측 분석 세계에 접근할 수 있도록 해주며 파이썬이 데이터 과학과 관련된 세계적으로 주요 언어 중 하나인 이유를 설명하고 있다. 여러분이 데이터에 대해 더 좋은 질문을 하고자 한다면 혹은 머신러닝 시스템을 개선하여 시스템 능력을 확대하고 싶다면, 이 책이 매우 유용할 것이다. 사이킷런(SCIKIT-LEARN) 시애노(THEANO), 케라스(KERAS), 감성분석에서 신경망에 이르는 모든 것들에 대한 피쳐링 안내 및 팁을 포함하여 강력한 파이썬 라이브러리의 광범위한 영역을 다루고 있기 때문에 여러분 스스로 마주하고 있는 가장 중요한 질문들에 스스로 곧 대답할 수 있게 될 것이다.
+[인터넷 교보문고 제공]
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
-
-#### Method 2: gh-pages in existing repository
-
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
-
-#### Method 3: Run it locally
-
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+####[Naver](http://http://book.naver.com/bookdb/book_detail.nhn?bid=11555796)
 
 
-## Configuration
 
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
 
-### Basic
 
-- Config your blog name.
 
-```yml
-name: <blog-name>
-```
-
-- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
-
-```yml
-author:
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
-
-- Change copyright year and name in footer.
-
-```yml
-copyright:
-  year:             2017
-  name:             Kiko
-```
-
-### Google analytics
-
-- Change this to your Google Analytic ID.
-
-```yml
-google-analytics:
-  id:               "your-id"
-```
-
-### Disqus
-
-- Change this to your Disqus short name.
-
-```yml
-disqus:
-  id:               "your-id"
-```
-
-### URL
-
-- Config your domain.
-
-```yml
-url: "https://<your-name>.github.io"
-```
-
-- **NOTE** When if running locally, change url to 
-
-```yml
-url: "https://localhost:4000"
-```
-
-- Change this to your branch name where _gh-pages_ resides. 
-- **NOTE** apply only if you used __Method 2__ for installation.
-
-```yml
-baseurl: "/<branch-name>"
-```
-
-## Rakefile Usage
-
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
-
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
-
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
-
-# Run in Local
-$ rake preview
-```
-
-## License
-
-This theme is released under MIT License.
